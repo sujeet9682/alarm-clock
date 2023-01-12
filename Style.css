@@ -1,9 +1,7 @@
 
 body{
   background-color: #000;
-  margin-left: 40%; 
   font-family: 'Times New Roman', Times, serif;
-   margin-right: 40%;
 }
 
 h3,
@@ -20,18 +18,20 @@ div{
   background-color: white;
   border-radius: .4rem;
   padding-left: .5rem;
+  margin-left: 40%;
+  margin-right: 40%;
 }
 
 
 .timer{
-  width: 3rem;
-  height: 3rem;
+  width: 2rem;
+  height: 2rem;
   margin-top: .3rem;
   margin-right: 1.0rem;
 }
 
 #clock{
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
   color: black;
 
@@ -66,6 +66,7 @@ div{
   font-size: 0.8rem;
   font-weight:500;
   margin: auto;
+  align-items: center;
 }
 
 .controls button:hover{
@@ -105,19 +106,14 @@ div{
 .time-list span{
   /* background-color: violet; */
   color: #000;
-  width: 11rem;
   margin: auto;
-  display: block;
 }
 
 .time-list button{
   background-color: #000;
   border-radius: .3rem;
-  height: 3.3rem;
   color: whitesmoke;
   margin: auto;
-  display: block;
-  width: 111px;
 }
 .time-list button:hover{
     background-color: #302929;
@@ -134,7 +130,6 @@ div{
   font-size: 1rem;
   width: 5.5rem;
   margin: auto;
-  display: block;
   padding: .6rem;
 }
 .time-list div{
@@ -233,10 +228,7 @@ h1{
 @media(max-width:998px){
  html{
   font-size: 55%;
- }
-
-
-
+  }
 
 }
 
